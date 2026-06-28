@@ -1,20 +1,20 @@
 # this code is written by chanveersingh follow on github for more
 
-wl ="welcome to calculator calculate the value you want"
-opp = ("1.addition\n"
-       "2.subraction\n"
-       "3.division\n"
-       "4.multiplication\n"
-       "5.float division\n"
+wl ="Welcome to calculator, calculate the value you want."
+opp = ("1.Addition\n"
+       "2.Subraction\n"
+       "3.Division\n"
+       "4.Multiplication\n"
+       "5.Float division\n"
        "6.EXIT")
 
-y = "your result is :"
+y = "Your result is:"
 print(wl)
 print(opp)
 
-option = int(input("enter your option from above:"))
-number1 = float(input("enter your first number:"))
-number2 = float(input("enteryour second nuber:"))
+option = int(input("Enter your option from above:"))
+number1 = float(input("Enter your first number:"))
+number2 = float(input("Enter your second number:"))
 
 # if else will give result with opratores of python
 
@@ -29,8 +29,7 @@ elif option == 4:
 elif option == 5:
     print(y,number1//number2)
 elif option == 6:
-    print("bye bye have a nice day #")
-    exit()
+    print("Bye bye have a nice day.")
 else:
-    print("you value is invailed")
+    print("Your value is invailed.")
 
